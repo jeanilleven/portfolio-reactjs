@@ -20,8 +20,8 @@ function Achievements() {
         return <Card style={{ width: '18rem' }} className='award-card' data-aos="zoom-out">
           <Card.Img variant="top" src={award.image}  className='award-image'/>
           <Card.Body>
-            <Card.Title>{award.award}</Card.Title>
-            <Card.Text>{award.name}</Card.Text>
+            <Card.Title className='skills-section-title'>{award.award}</Card.Title>
+            <Card.Text className='work-description'>{award.name}</Card.Text>
           </Card.Body>
         </Card>
       })}
