@@ -1,0 +1,17 @@
+.work{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.work-list{
+  margin-top: 10px;
+  display: flex;
+}
+
+@media only screen and (max-width: 720px){
+  .work-list{
+    flex-wrap: wrap;
+  }
+}

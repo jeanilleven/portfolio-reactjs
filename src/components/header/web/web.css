@@ -1,0 +1,32 @@
+.web-menu{
+  align-items: left ;
+}
+
+.web-menu-items{
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.web-menu-items a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.web-menu-items:last-child{
+  margin-right: 0;
+}
+
+.web-menu-item{
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.menu-item-icon{
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
