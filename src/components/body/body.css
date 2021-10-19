@@ -3,3 +3,10 @@
   margin: 5%;
   padding-bottom: 36px;
 }
+
+@media only screen and (max-width : 768px){
+  .body{
+    margin: 2%;
+    padding: 4%;
+  }
+}
