@@ -3,38 +3,31 @@
   height: 100vh;
   width: 100vw;
   position: absolute;
-  right: -14px;
+  right: -80px;
   top: 0px;
   
   display: flex;
   flex-direction:column;
+  align-items: center;
 }
 
 .mobile-menu{
   position: relative;
 }
 
-.mobile-menu-items{
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: center;
-}
-
 .mobile-menu-items .close-icon{
-  margin-left: 90%;
+  margin-left: auto;
+  width: 55px;
   font-size: 20px;
 }
-.close-icon{
-  display: flex;
-  flex-direction: column;
-}
+
 .mobile-menu-items a{
   text-decoration: none;
   color: black;
   display: flex;
   align-items: center;
 }
+
 
 .mobile-menu-item{
   font-size: 16px;

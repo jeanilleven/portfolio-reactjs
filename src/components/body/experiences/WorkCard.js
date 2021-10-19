@@ -13,7 +13,6 @@ function WorkCard({work}) {
           <p>{work.work}</p>
         </div>
       </div>
-      <img src={work.logo} alt={work.company} className='work-logo'/>
     </div>
   )
 }

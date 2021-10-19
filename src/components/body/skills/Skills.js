@@ -22,9 +22,6 @@ function Skills() {
         </div>
       })}
     </div>
-    <div className=''>
-       
-    </div>
   </div>
 }
 

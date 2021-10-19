@@ -6,7 +6,7 @@ import SocialMedia from '../social-media/SocialMedia'
 import ImgAbout from '../../../img/gif-about-pic.png'
 
 function About() {
-  return <div className='about'>
+  return <div id='about' className='about'>
     <div className='about-top'>
       <div className='about-info'>
         Hello, world! 👋🏼 I am <span className='about-info-name'>Jean</span>. 

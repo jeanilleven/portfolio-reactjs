@@ -3,6 +3,10 @@ export const SkillsData=[
     type: "Software Development",
     list:[
       {
+        name: "Figma",
+        icon: <i class="devicon-figma-plain colored"></i>
+      },
+      {
         name: "React JS",
         icon: <i class="devicon-react-original-wordmark colored"></i>
       },

@@ -9,7 +9,6 @@ function Home() {
     <div className="home">
       <div className='home-header'>
         <Header />
-        {/* <Navbar /> */}
       </div>
       <div>
         <Body />
