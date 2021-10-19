@@ -8,7 +8,7 @@ function SkillCard({skill}) {
     Aos.init({});
   }, [])
   return (
-    <div className='skillcard' data-aos="zoom-out-left" > 
+    <div className='skillcard' data-aos="zoom-in" > 
       <div className='skill-icon'>
         {skill.icon}
       </div>

@@ -14,7 +14,7 @@ function Experiences() {
   return <div className='work'>
     <Separator />
     <label className='section-title'>Work Experiences</label>
-    <div className='work-list'  data-aos="fade-up" data-aos-anchor-placement="top-center">
+    <div className='work-list'  data-aos="zoom-in" >
       {data.map((work)=>{
         return <WorkCard work={work}/>
       })}

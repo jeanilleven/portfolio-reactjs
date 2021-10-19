@@ -1,5 +1,5 @@
 .award-image{
-  height: 300px;
+  height: 250px;
 }
 
 .awards-container{
@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   flex:1;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -18,7 +18,7 @@
 
 @media only screen and (max-width: 720px){
   .award-image{
-    height: 200px;
+    height: 120px;
   }
 
   .awards-container{
