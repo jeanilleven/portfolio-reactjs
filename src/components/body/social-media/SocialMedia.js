@@ -9,7 +9,7 @@ function SocialMedia() {
   useEffect(() => {
     Aos.init({});
   }, [])
-  return <div className='social-contact' data-aos="flip-left">
+  return <div className='social-contact'>
     {data.map((contact)=>{
       return <a href={contact.link}>
         <div className='social-icon-div' ></div>

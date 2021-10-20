@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './header.css'
 import WebMenu from './web/Webmenu'
 import MobileMenu from './mobile/Mobilemenu'
+import Logo from '../../img/favicon.png'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -9,7 +10,7 @@ function Header() {
       <div className='header-container'>
         <div className='header'>
           <div className='logo'>
-            Jeanille Ven
+            <img src={Logo} alt='Jeanille Ven'/>
           </div>
           <div className='menu'>
             <div className='web-menu'>
