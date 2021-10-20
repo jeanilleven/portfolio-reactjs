@@ -36,7 +36,8 @@
   }
 
   .about-info-pic{
-    height: 280px;
+    height: 350px;
+    padding-bottom: 50px;
   }
   .about-info{
     font-size: 14px;
