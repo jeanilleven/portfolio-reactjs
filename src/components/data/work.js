@@ -13,6 +13,6 @@ export const WorkData = [
     dateJoined: "September 2019",
     dateEnd: "November 2019",
     logo: require('../../img/gullas-logo.png').default,
-    work: "I was tasked to test their student portal and report bugs. I was pre-processed student data such as grades and do administrative tasks."
+    work: "I was tasked to test their student portal and report bugs. I also pre-processed student data such as grades and did administrative tasks."
   }
 ]
