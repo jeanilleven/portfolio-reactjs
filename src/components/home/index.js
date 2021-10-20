@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
-import Header from '../header/Header.js'
+// import Header from '../header/Header.js'
+import NavbarTop from '../nav/Nav'
 import Body from '../body/Body'
 import Footer from '../footer/Footer'
 
@@ -8,7 +9,8 @@ function Home() {
   return (
     <div className="home">
       <div className='home-header'>
-        <Header />
+        {/* <Header /> */}
+        <NavbarTop />
       </div>
       <div>
         <Body />
