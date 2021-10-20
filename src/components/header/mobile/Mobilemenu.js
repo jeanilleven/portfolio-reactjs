@@ -7,7 +7,10 @@ function MobileMenu({isOpen, setIsOpen}) {
       <div className='close-icon'>
         <i class="fi fi-rr-cross " ></i>
       </div>
-      
+      <a href="#about" className='mobile-menu-item'>
+       <i class="fi fi-rr-home menu-item-icon"></i>
+        Home
+      </a>
       <a href="#projects" className='mobile-menu-item'>
         <i class="fi fi-rr-edit-alt menu-item-icon"></i>
         Projects

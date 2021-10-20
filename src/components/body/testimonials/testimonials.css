@@ -1,20 +1,17 @@
 .testimonials-container{
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin: 1%;
 }
 
 .testimony-details{
   width: 600px;
-  justify-content: space-between;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
 .testimony-comment{
-  font-size: 16px;
-  text-align: justify;
-  text-decoration: italic;
+  width: 90%;
+  height: 400px;
 }
 
 .testimony-name{
@@ -22,14 +19,9 @@
   font-weight: 500;
 }
 @media screen and (max-width: 720px){
-  .testimony-details{
-    width: 340px;
-  }
-
   .testimony-comment{
-    font-size: 14px;
+    height: 300px;
   }
-
   .testimony-name{
     font-size: 12px;
   }

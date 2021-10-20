@@ -30,8 +30,7 @@ function Testimonials() {
         <Carousel plugins={['arrows', 'infinite']} value={value} onChange={onChange}>
           {data.map((testimony)=>{
             return <div className='testimony-details'>
-              <i className='testimony-comment'>"{testimony.comment}"</i>
-              <label className='testimony-name'>- {testimony.name}</label>
+              <img src={testimony.image} className='testimony-comment' alt='feedback'/>
             </div>
           })}
         </Carousel>

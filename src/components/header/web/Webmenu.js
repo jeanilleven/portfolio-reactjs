@@ -4,6 +4,10 @@ import './web.css'
 function WebMenu() {
   return <div className='web-menu'>
     <div className='web-menu-items'>
+      <a href="#about" className='web-menu-item'>
+       <i class="fi fi-rr-home menu-item-icon"></i>
+        Home
+      </a>
       <a href="#projects" className='web-menu-item'>
         <i class="fi fi-rr-edit-alt menu-item-icon"></i>
         Projects
