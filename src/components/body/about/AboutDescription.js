@@ -5,8 +5,10 @@ function AboutDescription() {
   return (
     <>
       <ReactTypingEffect
-        speed = {100}
-        eraseDelay ={500}
+        speed = {50}
+        eraseSpeed = {30}
+        eraseDelay ={2500}
+        typingDelay = {100}
         text={["Jean.", "a teamplayer.", "hardworking.", "a goal-getter."]}
         cursorRenderer={cursor => <h1>{cursor}</h1>}
         displayTextRenderer={(text, i) => {
