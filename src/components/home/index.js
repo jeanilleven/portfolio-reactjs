@@ -6,7 +6,7 @@ import Footer from '../footer/Footer'
 
 function Home() {
   return (
-    <div className="home">
+    <div>
       <div className='home-header'>
         <Header />
       </div>
