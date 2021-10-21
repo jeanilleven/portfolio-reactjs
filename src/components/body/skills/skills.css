@@ -11,7 +11,7 @@
 .skills-section{
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .skills-section-title{
@@ -35,6 +35,7 @@
   .skills-section{
     flex-direction:column;
     align-items: center;
+    margin-top: 10px;
   }
 
   .skills-section-title{

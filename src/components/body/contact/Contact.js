@@ -8,7 +8,7 @@ function Contact() {
     <Separator />
     <label className='section-title'>Contact</label>
     <div className='contact-details'>
-      <p>Reach out to me through these platforms!</p>
+      <p>Get to know me more through these platforms!</p>
       <SocialMedia />
     </div>
     
