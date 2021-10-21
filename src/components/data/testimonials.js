@@ -12,6 +12,10 @@ export const TestimonialsData = [
     feedback: 'Jeanille is someone who gives the most objective criticism and at the same time takes them without getting emotional. She is also someone who explores, discover new things and is really passionate about it, and although she might not admit it she is also quite creative. Overall she is definitely someone who you want to work with and positive to the work environment.'
   },
   {
+    name: 'Mary Bernadette Ferolin',
+    feedback: "Jeanille is a very good leader who knows how to manage a team and encourage them to work their best and be on time. She's also very open to teaching valuable skills that can be useful at work and often shares her experiences to help us grow as members. She's also very open to ideas and criticisms, and is one of the few people I've had no problems working with"
+  },
+  {
     name: 'Ismael Romeo Francisco',
     feedback: "Jeanille is one of the few people I've seen that gives the most constructive criticism. She provides points for improvement in the most tacful way. As a student she shows a lot of zeal to perform to the best of her abilities"
   }
