@@ -20,7 +20,7 @@ function Testimonials() {
       <Separator />
       <label className='section-title'>What do they say about me?</label>
       <div className='testimonials-container'>
-        <Carousel variant="dark" data-aos='fade-up'>
+        <Carousel variant="dark" data-aos='fade-up' fade>
           {data.map((testimony)=>{
             return <Carousel.Item>
               <div className='testimony-details'>
