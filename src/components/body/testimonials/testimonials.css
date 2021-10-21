@@ -1,29 +1,49 @@
 .testimonials-container{
-  margin: 1%;
+  width: 90%;
+  margin: auto;
 }
 
 .testimony-details{
-  width: 600px;
   align-items: center;
   display: flex;
   flex-direction: column;
+
+  height: 400px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: rgb(238, 236, 236)
 }
 
 .testimony-comment{
-  width: 90%;
-  height: 400px;
+  font-size: 16px;
+}
+
+.testimony-card{
+  padding-left: 18%;
+  padding-right: 18%;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .testimony-name{
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 800;
 }
+
 @media screen and (max-width: 720px){
   .testimony-comment{
-    height: 200px;
+    font-size: 12px;
   }
   .testimony-name{
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .testimony-details{
+    flex: 1;
+    flex-direction: row;;
   }
 } 
 

@@ -9,11 +9,13 @@ function AboutDescription() {
         eraseSpeed = {30}
         eraseDelay ={2500}
         typingDelay = {100}
-        text={["Jean.", "a teamplayer.", "hardworking.", "a goal-getter."]}
+        text={["an aspiring leader.", " a teamplayer.", " hardworking.", "a goal-getter.",
+               "enthusiastic." ,
+              ]}
         cursorRenderer={cursor => <h1>{cursor}</h1>}
         displayTextRenderer={(text, i) => {
           return (
-            <h3>
+            <h1>
               {text.split('').map((char, i) => {
                 const key = `${i}`;
                 return (
@@ -23,7 +25,7 @@ function AboutDescription() {
                   >{char}</span>
                 );
               })}
-            </h3>
+            </h1>
           );
         }}        
       />

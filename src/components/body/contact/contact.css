@@ -7,12 +7,10 @@
 .section-title{
   font-size: 26px;
   font-weight: 400;
-  margin-top: 32px;
 }
 
 @media only screen and (max-width: 720px){
   .section-title{
     font-size: 20px;
-    margin-top: 24px;
   }
 }

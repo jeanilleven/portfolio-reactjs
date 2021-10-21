@@ -10,6 +10,11 @@ export const AwardsData = [
     image: require('../../img/ibcol2020.png').default
   },
   {
+    name: 'Ruby on Rails Bootcamp',
+    award: 'Certificate of Completion',
+    image: require('../../img/bootcamp.png').default
+  },
+  {
     name: 'PSITE Regional Programming Challenge 2020',
     award: '3rd Placer',
     image: require('../../img/psite20201.jpg').default
