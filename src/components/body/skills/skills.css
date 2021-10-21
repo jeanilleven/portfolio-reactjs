@@ -11,7 +11,7 @@
 .skills-section{
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .skills-section-title{
@@ -24,12 +24,14 @@
   flex-wrap: wrap;
   max-width: 70%;
   justify-content: flex-end;
+  margin-top:40px;
 }
 
 @media only screen and (max-width: 720px){
   .skills-list{
     max-width: 100%;
     justify-content: center;
+    margin-top: 0px;  
   }
 
   .skills-section{
