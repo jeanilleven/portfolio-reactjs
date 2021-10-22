@@ -1,5 +1,7 @@
 .award-image{
   height: 250px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .awards-container{
@@ -14,6 +16,8 @@
 
 .award-card{
   margin: 10px;
+  text-align: center;
+  border-radius: 15px;
 }
 
 @media only screen and (max-width: 720px){
